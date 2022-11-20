@@ -2,25 +2,32 @@
 <!DOCTYPE html>
 <html>
    <head>
+
+      <title>A general guide to making toast</title>
+
+      <link rel="stylesheet" href="styles.css">
+
    </head>
       <body>
          <!-- Write your HTML in this file! -->
-         <h1>How to make toast!</h1>
+         <h1 id="mainHeading">How to make toast!</h1>
          <h2>The 5 steps to making toast are:</h2>
          <p>
-            <ul>
-               <li><a href="#Step1">Step 1: Insert Bread Into Toaster</a></li>
-               <li><a href="#Step2">Step 2: Select Temperature</a></li>
-               <li><a href="#Step3">Step 3: Start The Toaster Magic</a></li>
-               <li><a href="#Step4">Step 4: Butter The Toast</a></li>
-               <li><a href="#Step5">Step 5: Enjoy The Toast!</a></li>
-            </ul>
+            <nav>
+               <ul><b>
+                  <li><a href="#Step1">Step 1: Insert Bread Into Toaster</a></li>
+                  <li><a href="#Step2">Step 2: Select Temperature</a></li>
+                  <li><a href="#Step3">Step 3: Start The Toaster Magic</a></li>
+                  <li><a href="#Step4">Step 4: Butter The Toast</a></li>
+                  <li><a href="#Step5">Step 5: Enjoy The Toast!</a></li>
+               </b></ul>
+            </nav>
          </p>
          <main>
             <article>
                <section>
                   <h3><a name="Step1">Step 1: Insert Bread Into Toaster</a></h3>
-                  <p>Locate the toaster and bread. Take the bread out of the bag and place it into the toaster.
+                  <p id="testP" class="funParagraph">Locate the toaster and bread. Take the bread out of the bag and place it into the toaster.
                   </p>
                   <figure>
                      <img src="images/Step1.jpg" alt="Step 1 of making toast">
@@ -41,7 +48,7 @@
                   </figure>
                </section>
                <section>
-                  <h4><a name="Step3">Step 3: Start The Toaster Magic</a></h4>
+                  <h5><a name="Step3">Step 3: Start The Toaster Magic</a></h5>
                   <p>Press the button to initiate Toaster Magic down to the ground.
                   </p>
                   <figure>
@@ -52,7 +59,7 @@
                   </figure>
                </section>
                <section>
-                  <h4><a name="Step4">Step 4: Butter The Toast</a></h4>
+                  <h6><a name="Step4">Step 4: Butter The Toast</a></h6>
                   <p>Once the Toaster Magic is finished, pop the Toast out and spread it with butter or jam.
                   </p>
                   <figure>
@@ -63,8 +70,8 @@
                   </figure>
                </section>
                <section>
-                  <h4><a name="Step5">Step 5: Enjoy The Toast!</a></h4>
-                  <p>Enjoy the fruit of your labor like a normal person or like Mark Zuckerberg! Probably not like Mark Zuckerberg though.
+                  <h7><b><a name="Step5", p id="Step5">Step 5: Enjoy The Toast!</a></b></h7>
+                  <p>Enjoy the fruit of your labor like a normal person or like Mark Zuckerberg&reg;! Probably not like Mark Zuckerberg&reg; though.
                   </p>
                   <figure>
                      <img src="images/Step5.jpg" alt="Step 5 of making toast">
@@ -76,8 +83,10 @@
             </article>
          </main>
       </body>
-   <footer>
-      &copy Ken Ma 2022
+      <footer>
+         <div class="footer">
+               <b>&copy Ken Ma 2022</b>
+         </div>
    </footer>
 </html>
 

@@ -1,1 +1,59 @@
 /* Write your CSS here! */
+
+#mainHeading {
+	color: red;
+}
+
+.funParagraph {
+	color: green;
+}
+
+h2 {
+	padding:em;
+}
+
+body {
+	width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+	background-color: powderblue;
+	font-family: cambria;
+	text-align: center;
+	margin: 8px;
+	display: block;
+}
+
+h3, h4, h5, h6 {
+    font-size: large;
+}
+
+img {
+	margin: 10px;
+}
+
+nav ul {
+    text-align: center;
+    border: 5px dotted rgb(22, 118, 131);
+    background-color: powderblue;
+	padding: 1em;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+img {
+    border: 5px solid #555;
+	border-color: rgb(22, 118, 131);
+	width: 500px;
+}
+
+#Step5 {
+	font-size: large;
+
+}
+
+.footer {
+	padding: 1.25em;
+}
